@@ -3,7 +3,6 @@
 An interactive, single-file web laboratory for molecular physics. It starts from the simplest diatomic models and builds up to quantum chemistry and many-body simulation. Every result is compared with NIST reference data or exact theory.
 
 **Live:** https://obayrak.github.io/obayrak/atom-and-molecule-lab/molecular-physics-lab/
-**Part of:** [Atom and Molecule Lab](https://obayrak.github.io/obayrak/atom-and-molecule-lab/) · [Interactive Physics Laboratories](https://obayrak.github.io/obayrak/)
 
 ## What's inside
 
@@ -35,16 +34,6 @@ Each table compares a computed value with a reference: green ✓ means under 1 %
 - **IndexedDB cache** for expensive results, and seeded random numbers, so results are reproducible. Sessions can be exported and imported as JSON.
 - Works in current Chrome, Edge, Firefox and Safari. Heavy runs, such as Gibbs-ensemble MC or MP2 Hessians, benefit from more CPU cores.
 
-## Running locally
-
-Open `molecular-physics-lab.html` directly in a browser, or serve the folder:
-
-```bash
-python -m http.server
-# then visit http://localhost:8000/molecular-physics-lab.html
-```
-
-`index.html` is the site wrapper (navigation, breadcrumb, full-screen frame) used on the website.
 
 ## Reference data
 
@@ -59,4 +48,4 @@ NIST data are used for comparison and teaching. See the in-app **NIST reference 
 
 MIT. See [LICENSE](LICENSE).
 
-© 2026 Prof. Dr. Orhan Bayrak · Department of Physics, Akdeniz University, Antalya
+

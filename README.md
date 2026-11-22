@@ -2,7 +2,7 @@
 
 An interactive, single-file web laboratory for molecular physics. It starts from the simplest diatomic models and builds up to quantum chemistry and many-body simulation. Every result is compared with NIST reference data or exact theory.
 
-**Live:** https://obayrak.github.io/obayrak/atom-and-molecule-lab/molecular-physics-lab/
+**Live:** obayrak.github.io/Molecular-Physics/
 
 ## What's inside
 
